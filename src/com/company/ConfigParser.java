@@ -31,7 +31,8 @@ public class ConfigParser {
                 String str = configParam.get(Lexemes.values()[i]);
                 String buf;
                 if((buf = property.getProperty(str)) == null){
-                    return "no " + str + " file name";
+                    Log.Print("no " + str + " file name");
+                    return null;
                 }
                 else {
                     fileNames.put(str,buf);

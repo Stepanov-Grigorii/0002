@@ -1,7 +1,9 @@
-COUNT_WORKER = 3
-WORKER1 = Worker Config1.txt
-WORKER2 = Config2.txt
-WORKER3 = Config3.txt
+COUNT_WORKER = 4
+WORKER1 = com.company.Worker Config1.txt
+WORKER2 = Rizhenko.XOR config4.txt
+WORKER3 = com.company.Worker Config2.txt
+WORKER4 = com.company.Worker Config3.txt
 CONSUMER1 = WORKER2
 CONSUMER2 = WORKER3
-CONSUMER3 = OUTPUT
+CONSUMER3 = WORKER4
+CONSUMER4 = OUTPUT
